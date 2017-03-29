@@ -12,17 +12,26 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="/crm/Public/easyui/themes/bootstrap/easyui.css" />
         <link rel="stylesheet" type="text/css" href="/crm/Public/easyui/themes/icon.css" />
     </head>
-    <body>
-        <script type="text/javascript" src="/crm/Public/easyui/jquery.min.js"></script>
-        <script type="text/javascript" src="/crm/Public/easyui/jquery.easyui.min.js"></script>
-        <script type="text/javascript" src="/crm/Public/easyui/locale/easyui-lang-zh_CN.js"></script>
+    <body class='easyui-layout'>
         
         <!--layout 布局-->
-        <div class="layout-north">顶部</div>
-        <div class="layout-west">顶部</div>
-        <div class="layout-east">顶部</div>
-        <div class="layout-south">顶部</div>
+		
+        <div class="layout-north" data-options="region:'north',splite:true,border:false">顶部</div>
+       
+		
+		<div class="layout-west" data-options="region:'west',splite:true,title:'导航',iconCls:'icon-world'">左部</div>
         
+		
+		<div class="layout-center" data-options="region:'center'">右部</div>
+        
+		
+		<div class="layout-south" data-options="region:'south',splite:true">下部</div>
+       
+		
+		<script type="text/javascript" src="/crm/Public/easyui/jquery.min.js"></script>
+        <script type="text/javascript" src="/crm/Public/easyui/jquery.easyui.min.js"></script>
+        <script type="text/javascript" src="/crm/Public/easyui/locale/easyui-lang-zh_CN.js"></script>
+       
         
     </body>
 </html>
