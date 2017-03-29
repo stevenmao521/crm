@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+.layout-north{
+height:80px;line-height:80px;background:#333;overflow:hidden;
+}
+.layout-north .logo{
+width:300px;height:80px;float:left;
+}
+.layout-north .info{
+float:right;width:300px;height:80px;line-height:80px;text-align:right;color:#fff;padding:0 20px 0 0;
+}
+.layout-west{
+width:180px;
+}

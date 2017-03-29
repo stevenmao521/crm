@@ -10,4 +10,5 @@ return array(
     'TMPL_TEMPLATE_SUFFIX' => '.html',
     //设置默认主题目录
     'DEFAULT_THEME' => 'Default',
+	
 );
